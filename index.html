@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>FCC:Survey Form</title>
+    <link rel="stylesheet" href="css/index.css">
+    <link href="https://fonts.googleapis.com/css?family=Muli&display=swap" rel="stylesheet">
+  </head>
+  <body>
+
+    <form class="" action="index.html" method="post">
+      <div class="header">
+
+      </div>
+      <h1>Survey Form</h1>
+      <div class="form">
+        <div class="heading">
+          <p>Let us know how we can improve freeCodeCamp</p>
+        </div>
+        <div class="ques name">
+          <p>*Name:</p>
+        </div>
+        <div class="ans nameinput">
+          <input type="text" name="Name" placeholder="Enter Your Name">
+        </div>
+        <div class="ques email">
+          <p>*Email:</p>
+        </div>
+        <div class="ans emailinput">
+          <input type="email" name="email" placeholder="Enter Your Email">
+        </div>
+        <div class="ques age">
+          <p>*Age:</p>
+        </div>
+        <div class="ans ageinput">
+          <input type="number" name="age" placeholder="Enter Your Age">
+        </div>
+        <div class="ques role">
+          <p>Which option best describes your current role?</p>
+        </div>
+        <div class="ans rolee">
+          <select name="role">
+            <option value="">Student</option>
+            <option value="">Full time job</option>
+            <option value="">Full time learner</option>
+            <option value="">Prefer not to say</option>
+          </select>
+        </div>
+          <div class="ques recommend">
+            <p>*How likely is that you would recommend <br> freeCodeCamp to a friend?</p>
+          </div>
+          <div class="ans recommendd">
+            <input type="radio" name="Role" value="male">Definitely<br>
+            <input type="radio" name="Role" value="female">Maybe<br>
+            <input type="radio" name="Role" value="other">Not sure
+          </div>
+          <div class="ques like">
+            <p>What do you like most in FCC:</p>
+          </div>
+          <div class="ans likee">
+            <select class="" name="">
+              <option value="" selected="">Select an option</option>
+              <option value="">Challenges</option>
+              <option value="">Projects</option>
+              <option value="">Community</option>
+              <option value="">Open Source</option>
+            </select>
+          </div>
+          <div class="ques future">
+            <p>Things that should be improved in the future <br>(Check all that apply):</p>
+          </div>
+          <div class="ans futuree">
+            <br>
+            <input type="checkbox" name="Improve" value="Frontend"> Front-end Projects<br>
+            <input type="checkbox" name="Improve" value="backend"> Back-end Projects<br>
+            <input type="checkbox" name="Improve" value="Frontend"> Data Visualization<br>
+            <input type="checkbox" name="Improve" value="Frontend"> Open Source Community<br>
+            <input type="checkbox" name="Improve" value="Frontend"> Gitter Help Room<br>
+            <input type="checkbox" name="Improve" value="Frontend"> Videos<br>
+            <input type="checkbox" name="Improve" value="Frontend"> City Meetups<br>
+            <input type="checkbox" name="Improve" value="Frontend"> Wiki<br>
+            <input type="checkbox" name="Improve" value="Frontend"> Forum<br>
+            <input type="checkbox" name="Improve" value="Frontend"> Additional Courses<br>
+          </div>
+          <div class="ques suggest">
+            <p>Any Comments or Suggestions?</p>
+          </div>
+          <div class="ans suggestion">
+            <br>
+            <textarea name="name" rows="5" cols="40" placeholder="Enter Your Comment here..."></textarea>
+          </div>
+          <div class="button">
+            <button type="button" name="button">Submit</button>
+          </div>
+        </div>
+    </form>
+  </body>
+</html>

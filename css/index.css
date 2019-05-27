@@ -1,0 +1,116 @@
+body{
+  background-color: rgba(93, 188, 210,0.5);
+  font-family: 'Muli' , sans-serif;
+  margin: 0;
+  height: 100%;
+  width: 100%;
+}
+
+.header{
+  width: 100%;
+  height: 70px;
+  background-color: rgba(0, 0, 0, 0.8);
+  margin: 0;
+  padding: 0;
+  display: block;
+  border: none;
+}
+
+.form{
+  background-color: rgb(250, 250, 250);
+  width: 900px;
+  height: 890px;
+  border-radius: 10px;
+  margin-bottom: 50px;
+
+  position: absolute;
+  left: 220px;
+}
+
+.heading p{
+  font-size: 18px;
+}
+
+.heading p,h1{
+  text-align: center;
+  padding-top: 10px;
+}
+
+.ques{
+  width: 450px;
+  height: 60px;
+  float: left;
+
+}
+
+.ans{
+  float:right;
+  width: 450px;
+  height: 60px;
+}
+
+.ques p{
+  font-size: 18px;
+  text-align: right;
+  margin-right: 15px;
+}
+
+.ans input,.ans select{
+  float: left;
+  width: 292px;
+  height: 32px;
+  margin-top: 10px;
+}
+
+.form select{
+  width: 150px;
+  height: 40px;
+}
+
+.ans input[type="radio"]{
+  height: 13px;
+  width: 16px;
+  margin: 0;
+}
+
+.recommend,.recommendd{
+  height: 90px;
+}
+
+.recommend{
+  height: 110px;
+}
+
+.futuree input{
+  height: 15px;
+  width: 15px;
+  margin: 0;
+  font-size: 18px;
+  margin-right: 15px;
+  margin-bottom: 5px;
+}
+
+.future,.futuree{
+  height: 230px;
+
+}
+.recommendd{
+  padding-top: 20px;
+}
+
+.suggest,.suggestion{
+  height: 120px;
+}
+
+.button button{
+color: rgb(255, 255, 255);
+font-size: 15px;
+line-height: 15px;
+padding: 12px 20px;
+border-radius: 6px;
+text-decoration: none;
+background-color: rgba(28, 110, 164,0.7);
+margin-left: 450px;
+border:1px solid transparent;
+display: inline-block;
+}
