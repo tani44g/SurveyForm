@@ -18,8 +18,9 @@ body{
 
 .form{
   background-color: rgb(250, 250, 250);
-  width: 900px;
-  height: 890px;
+  width: 70%;
+  min-height: 890px;
+  height: 80%;
   border-radius: 10px;
   margin-bottom: 50px;
 
